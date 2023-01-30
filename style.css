@@ -2,13 +2,45 @@ body {
     margin: 0;
     min-height: 100vh;
     max-height: 100vh;
+    background-color: #fefaef !important;
 }
 
-content {
+.content-container {
     display: flex;
     justify-content: center;
-    min-height: 94vh;
-    max-height: 94vh;
-    padding: 20vh 20vw;
+    align-items: center;
+    height: 93vh;
+    padding-top: 1vh;
 }
 
+.card-body {
+    display: flex !important;
+    justify-content: center;
+    flex: unset!important;
+}
+
+.card-left{
+    background-color: rgb(39, 53, 92)!important;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.card-right{
+    background-image: url("img/brainbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+h4 {
+    font-weight: 300 !important;
+}
