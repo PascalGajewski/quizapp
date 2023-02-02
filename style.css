@@ -41,6 +41,12 @@ body {
     padding-top: 5%;
 }
 
+.card-question{
+    width: 50vw;
+    height: 50vh;
+    background-color: #f7f7f7 !important;
+}
+
 h4 {
     font-weight: 300 !important;
 }

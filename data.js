@@ -329,3 +329,5 @@ let questionsJAVA = [
         "right_answer": 3, 
     }
 ];
+
+let currentQuestion = 0;
