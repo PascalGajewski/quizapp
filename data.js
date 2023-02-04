@@ -170,19 +170,19 @@ let questions =
         [   /* JS Questions */
 
             {
-                "questions": "Inside which HTML element do we put the JavaScript?",
-                "answer1": "<js>",
-                "answer2": "<script>",
-                "answer3": "<scripting>",
-                "answer4": "<javascript>",
+                "questions": "Inside which HTML element do we put the JavaScript Code?",
+                "answer1": "&lt;js&gt;",
+                "answer2": "&lt;script&gt;",
+                "answer3": "&lt;scripting&gt;",
+                "answer4": "&lt;javascript&gt;",
                 "right_answer": 2,
             },
             {
                 "questions": `What is the correct syntax for referring to an external script called "xxx.js"?`,
-                "answer1": `<script name="xxx.js">`,
-                "answer2": `<script href="xxx.js">`,
-                "answer3": `<script src="xxx.js">`,
-                "answer4": `<script link="xxx.js">`,
+                "answer1": `&lt;script name="xxx.js"&gt;`,
+                "answer2": `&lt;script href="xxx.js"&gt;`,
+                "answer3": `&lt;script src="xxx.js"&gt;`,
+                "answer4": `&lt;script link="xxx.js"&gt;`,
                 "right_answer": 3,
             },
             {
@@ -235,18 +235,18 @@ let questions =
             },
             {
                 "questions": "Where is the correct place to insert a JavaScript file into an HTML document?",
-                "answer1": "The <head> section",
+                "answer1": "The &lt;head&gt; section",
                 "answer2": "Nowhere",
-                "answer3": "The <body> section",
-                "answer4": "Both the <head> section and the <body> section are correct",
+                "answer3": "The &lt;body&gt; section",
+                "answer4": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
                 "right_answer": 4,
             },
             {
                 "questions": "How does a FOR loop start?",
-                "answer1": "for (i = 0; i <= 5)",
+                "answer1": "for (i = 0; i &lt;= 5)",
                 "answer2": "for i = 1 to 5",
-                "answer3": "for (i = 0; i <= 5; i++)",
-                "answer4": "for (i <= 5; i++)",
+                "answer3": "for (i = 0; i &lt;= 5; i++)",
+                "answer4": "for (i &lt;= 5; i++)",
                 "right_answer": 3,
             }
 
@@ -254,19 +254,19 @@ let questions =
         [   /* Java Questions */
 
             {
-                "questions": "Inside which HTML element do we put the JavaScript?",
-                "answer1": "<js>",
-                "answer2": "<script>",
-                "answer3": "<scripting>",
-                "answer4": "<javascript>",
+                "questions": "Inside which HTML element do we put the JavaScript Code?",
+                "answer1": "&lt;js&gt;",
+                "answer2": "&lt;script&gt;",
+                "answer3": "&lt;scripting&gt;",
+                "answer4": "&lt;javascript&gt;",
                 "right_answer": 2,
             },
             {
                 "questions": `What is the correct syntax for referring to an external script called "xxx.js"?`,
-                "answer1": `<script name="xxx.js">`,
-                "answer2": `<script href="xxx.js">`,
-                "answer3": `<script src="xxx.js">`,
-                "answer4": `<script link="xxx.js">`,
+                "answer1": `&lt;script name="xxx.js"&gt;`,
+                "answer2": `&lt;script href="xxx.js"&gt;`,
+                "answer3": `&lt;script src="xxx.js"&gt;`,
+                "answer4": `&lt;script link="xxx.js"&gt;`,
                 "right_answer": 3,
             },
             {
@@ -319,18 +319,18 @@ let questions =
             },
             {
                 "questions": "Where is the correct place to insert a JavaScript file into an HTML document?",
-                "answer1": "The <head> section",
+                "answer1": "The &lt;head&gt; section",
                 "answer2": "Nowhere",
-                "answer3": "The <body> section",
-                "answer4": "Both the <head> section and the <body> section are correct",
+                "answer3": "The &lt;body&gt; section",
+                "answer4": "Both the &lt;head&gt; section and the &lt;body&gt; section are correct",
                 "right_answer": 4,
             },
             {
                 "questions": "How does a FOR loop start?",
-                "answer1": "for (i = 0; i <= 5)",
+                "answer1": "for (i = 0; i &lt;= 5)",
                 "answer2": "for i = 1 to 5",
-                "answer3": "for (i = 0; i <= 5; i++)",
-                "answer4": "for (i <= 5; i++)",
+                "answer3": "for (i = 0; i &lt;= 5; i++)",
+                "answer4": "for (i &lt;= 5; i++)",
                 "right_answer": 3,
             }
 
@@ -339,3 +339,4 @@ let questions =
 
 let currentCode = 0;
 let currentQuestion = 0;
+let rightAnswerSum = 0;
