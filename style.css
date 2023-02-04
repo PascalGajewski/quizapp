@@ -50,3 +50,16 @@ body {
 h4 {
     font-weight: 300 !important;
 }
+
+.bg-blue {
+    background-color: #dbdff3;
+}
+
+.card-positioning{
+    margin-top: -100px;
+}
+
+.nav-btn:hover {
+    background-color: #0d6efd;
+    cursor: pointer;
+}
