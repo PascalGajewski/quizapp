@@ -47,12 +47,24 @@ body {
     background-color: #f7f7f7 !important;
 }
 
+h3 {
+    font-weight: 500 !important;
+}
+
 h4 {
     font-weight: 300 !important;
 }
 
 .bg-blue {
     background-color: #dbdff3;
+}
+
+.bg-true {
+    background-color: #b7f799!important;
+}
+
+.bg-false {
+    background-color: #ffa3a4!important;
 }
 
 .card-positioning{
