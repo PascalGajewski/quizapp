@@ -340,3 +340,4 @@ let questions =
 let currentCode = 0;
 let currentQuestion = 0;
 let rightAnswerSum = 0;
+let currentProgress = 0;

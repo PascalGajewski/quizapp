@@ -5,18 +5,27 @@ body {
     background-color: #fefaef !important;
 }
 
-.content-container {
+header{
+    position: absolute;
+    width: 100vw;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+content{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 93vh;
-    padding-top: 1vh;
+    height: 100vh;
+    width: 100vw;
 }
 
 .card-body {
     display: flex !important;
     justify-content: center;
     flex: unset!important;
+    border-radius: 4%;
 }
 
 .card-left{
@@ -26,6 +35,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 32px;
+    border-top-left-radius: 4%;
+    border-bottom-left-radius: 4%;
 }
 
 .card-right{
@@ -39,12 +50,16 @@ body {
     flex-direction: column;
     align-items: center;
     padding-top: 5%;
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4%;
 }
 
 .card-question{
     width: 50vw;
     height: 50vh;
     background-color: #f7f7f7 !important;
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4%;
 }
 
 .card-finished{
@@ -59,6 +74,8 @@ body {
     align-items: center;
     padding-top: 5%;
     background-color: #f7f7f7 !important;
+    border-top-right-radius: 4%;
+    border-bottom-right-radius: 4%;
 }
 
 h3 {
@@ -81,13 +98,17 @@ h4 {
     background-color: #ffa3a4!important;
 }
 
-.card-positioning{
-    margin-top: -100px;
-}
-
 .nav-btn:hover {
     background-color: #0d6efd;
     cursor: pointer;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.marginright{
+    margin-right: 10vw;
 }
 
 .img-completed{
@@ -98,4 +119,20 @@ h4 {
 
 .d-grid button{
     width: 10rem;
+}
+
+.nav-row{
+    flex-direction: column !important;
+}
+
+@media (max-width: 768px) {
+    h3{
+        font-size: 1.25rem!important;
+        padding-top: 0.75rem!important;
+        padding-bottom: 0.25rem!important;
+    }
+
+    .nav-row{
+        flex-direction: row !important;
+    }
 }
