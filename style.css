@@ -5,7 +5,7 @@ body {
     background-color: #fefaef !important;
 }
 
-header{
+header {
     position: absolute;
     width: 100vw;
     margin-top: 0;
@@ -13,7 +13,7 @@ header{
     margin-right: 0;
 }
 
-content{
+content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,22 +24,24 @@ content{
 .card-body {
     display: flex !important;
     justify-content: center;
-    flex: unset!important;
-    border-radius: 4%;
+    flex: unset !important;
+    background: transparent !important;
+    ;
+    border-radius: 2rem;
 }
 
-.card-left{
-    background-color: rgb(39, 53, 92)!important;
+.card-left {
+    background-color: rgb(39, 53, 92) !important;
     gap: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 32px;
-    border-top-left-radius: 4%;
-    border-bottom-left-radius: 4%;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
 }
 
-.card-right{
+.card-right {
     background-image: url("img/brainbg.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -50,19 +52,19 @@ content{
     flex-direction: column;
     align-items: center;
     padding-top: 5%;
-    border-top-right-radius: 4%;
-    border-bottom-right-radius: 4%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
-.card-question{
+.card-question {
     width: 50vw;
     height: 50vh;
     background-color: #f7f7f7 !important;
-    border-top-right-radius: 4%;
-    border-bottom-right-radius: 4%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
-.card-finished{
+.card-finished {
     background-image: url("img/tropy.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -74,8 +76,8 @@ content{
     align-items: center;
     padding-top: 5%;
     background-color: #f7f7f7 !important;
-    border-top-right-radius: 4%;
-    border-bottom-right-radius: 4%;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
 h3 {
@@ -91,11 +93,11 @@ h4 {
 }
 
 .bg-true {
-    background-color: #b7f799!important;
+    background-color: #b7f799 !important;
 }
 
 .bg-false {
-    background-color: #ffa3a4!important;
+    background-color: #ffa3a4 !important;
 }
 
 .nav-btn:hover {
@@ -103,36 +105,126 @@ h4 {
     cursor: pointer;
 }
 
-.cursor{
+.cursor {
     cursor: pointer;
 }
 
-.marginright{
+.marginright {
     margin-right: 10vw;
 }
 
-.img-completed{
+.bar-spacing {
+    width: 40%;
+}
+
+.img-completed {
     height: 7rem;
     width: 7rem;
     object-fit: cover;
 }
 
-.d-grid button{
+.d-grid button {
     width: 10rem;
 }
 
-.nav-row{
+.nav-row {
     flex-direction: column !important;
+    margin-right: 1rem;
 }
 
 @media (max-width: 768px) {
-    h3{
-        font-size: 1.25rem!important;
-        padding-top: 0.75rem!important;
-        padding-bottom: 0.25rem!important;
+    h3 {
+        font-size: 1.25rem !important;
+        padding-top: 0.75rem !important;
+        padding-bottom: 0.25rem !important;
     }
 
-    .nav-row{
+    .card-body {
+        flex-direction: column !important;
+        margin: 2rem;
+    }
+
+    .card-left {
+        border-top-left-radius: 2rem;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 2rem;
+    }
+
+    .card-right {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        width: unset !important;
+    }
+
+    .card-question {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        width: unset !important;
+        height: fit-content;
+    }
+
+    .card-finished {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 2rem;
+        border-bottom-left-radius: 2rem;
+        width: unset !important;
+        background-size: 20%;
+    }
+
+    .nav-row {
         flex-direction: row !important;
+        margin-right: unset !important;
+        white-space: nowrap;
+    }
+}
+
+
+@media (max-width: 500px) {
+    .marginright {
+        margin-right: 20vw;
+    }
+
+    .bar-spacing {
+        width: 60% !important;
+    }
+
+    .nav-link {
+        padding: 0.5rem 0.75rem !important;
+    }
+
+    .card-left {
+        padding: 0.5rem;
+        gap: 25px;
+    }
+    .card-finished{
+        background-image: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .nav-row {
+        font-size: small;
+    }
+    h3 {
+        font-size: 0.75rem!important;
+    }
+
+    .list-group-item{
+        font-size: small;
+    }
+
+    .card-finished{
+        background-image: none;
+    }
+
+    .btn{
+        font-size: small!important;
+        padding: 0.25rem 0.5rem!important;
+    }
+
+    span{
+        font-size: small;
     }
 }
