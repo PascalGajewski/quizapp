@@ -201,6 +201,9 @@ h4 {
     .card-finished{
         background-image: none;
     }
+    .card-body {
+        margin: 1rem;
+    }
 }
 
 @media (max-width: 350px) {
@@ -216,7 +219,7 @@ h4 {
     }
 
     .card-finished{
-        background-image: none;
+        background-image: none!important;
     }
 
     .btn{

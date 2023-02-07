@@ -341,3 +341,6 @@ let currentCode = 0;
 let currentQuestion = 0;
 let rightAnswerSum = 0;
 let currentProgress = 0;
+
+let AUDIO_SUCCESS = new Audio ('audio/true.mp3');
+let AUDIO_FAIL = new Audio ('audio/false.mp3');
