@@ -196,6 +196,7 @@ h4 {
 
     .card-left {
         padding: 0.5rem;
+        padding-top: 1.5rem;
         gap: 25px;
     }
     .card-finished{
